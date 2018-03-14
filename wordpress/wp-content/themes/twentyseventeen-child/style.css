@@ -1,0 +1,37 @@
+/*
+ Theme Name:   Twenty Seventeen Child
+ Theme URI:    http://example.com/twenty-seventeen-child/
+ Description:  Twenty Seventeen Child Theme
+ Author:       Steve Waugh
+ Author URI:   http://stevewaugh76.com/
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-seventeen-child
+*/
+
+.page.page-one-column .entry-header, 
+.twentyseventeen-front-page.page-one-column .entry-header, 
+.archive.page-one-column:not(.has-sidebar) .page-header 
+{
+	margin-bottom: 1em;
+}
+
+.site-title {
+	font-size: 4.25rem;
+}
+
+.site-description {
+	font-size: 3rem;
+}
+
+.entry-content a, .entry-summary a, .widget a, .site-footer .widget-area a, .posts-navigation a, .widget_authors a strong {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+footer.site-footer .widget-column section.widget {
+	padding-bottom: 0.5em;
+}
